@@ -1,0 +1,59 @@
+
+连接器　版本8.7.7.211123
+Input Object File: C:\Users\wushu\Desktop\FAE\HT66F3185低功耗异常\code\HT66F3185_LOW_POWER\Output\MAIN.OBJ
+Input Object File: C:\Users\wushu\Desktop\FAE\HT66F3185低功耗异常\code\HT66F3185_LOW_POWER\Output\STARTUP1_L.OBJ
+Input Object File: C:\Users\wushu\Desktop\FAE\HT66F3185低功耗异常\code\HT66F3185_LOW_POWER\Output\BSP.OBJ
+
+Input Library File: D:\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB
+Input Library File: D:\HT-IDE3000V8.x\LIB\v3_lmrsc.lib
+
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0000h     0000h    0001h      CODE               @code (C:\Users\wushu\Desktop\FAE\HT66F3185低功耗异常\code\HT66F3185_LOW_POWER\Output\MAIN.OBJ)
+     00h     0001h     0001h    0001h      CODE               @start (C:\Users\wushu\Desktop\FAE\HT66F3185低功耗异常\code\HT66F3185_LOW_POWER\Output\MAIN.OBJ)
+     00h     0002h     0006h    0005h      CODE               _main (C:\Users\wushu\Desktop\FAE\HT66F3185低功耗异常\code\HT66F3185_LOW_POWER\Output\MAIN.OBJ)
+     00h     0007h     0013h    000dh      CODE               _GPIO_Init (C:\Users\wushu\Desktop\FAE\HT66F3185低功耗异常\code\HT66F3185_LOW_POWER\Output\BSP.OBJ)
+     00h     0014h     0024h    0011h      CODE               _System_Init (C:\Users\wushu\Desktop\FAE\HT66F3185低功耗异常\code\HT66F3185_LOW_POWER\Output\BSP.OBJ)
+
+     Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0080h     0080h    0000h      LOCAL    0         @dummy (C:\Users\wushu\Desktop\FAE\HT66F3185低功耗异常\code\HT66F3185_LOW_POWER\Output\MAIN.OBJ)
+     00h     0080h     0080h    0000h      LOCAL    0         _main (C:\Users\wushu\Desktop\FAE\HT66F3185低功耗异常\code\HT66F3185_LOW_POWER\Output\MAIN.OBJ)
+     00h     0080h     0080h    0000h      LOCAL    0         _System_Init (C:\Users\wushu\Desktop\FAE\HT66F3185低功耗异常\code\HT66F3185_LOW_POWER\Output\BSP.OBJ)
+     00h     0080h     0080h    0000h      LOCAL    0         _GPIO_Init (C:\Users\wushu\Desktop\FAE\HT66F3185低功耗异常\code\HT66F3185_LOW_POWER\Output\BSP.OBJ)
+
+     Public Symbols Information
+     Address            Public by Name
+     0007h              _GPIO_Init
+     0014h              _System_Init
+     0002h              _main
+
+     Address            Public by Value
+     0002h              _main
+     0007h              _GPIO_Init
+     0014h              _System_Init
+
+
+ROM Usage Statistics
+     Size      Used     Percentage
+     1000h     0025h    0%
+
+RAM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       0080h     0000h    0%
+     01h       0080h     0000h    0%
+     Total     0100h     0000h    0%
+
+Use Stack Count
+_main: 1
+
+Call Tree
+    @dummy
+        _main (0)
+            _System_Init (1)
+            _GPIO_Init (1)
+
+HLINK : 程序的开始执行点在程序段'@code'（地址0）。定义在'C:\Users\wushu\Desktop\FAE\HT66F3185低功耗异常\code\HT66F3185_LOW_POWER\Output\MAIN.OBJ' 文件中
+
+错误总数 : 0  警告总数 : 0
